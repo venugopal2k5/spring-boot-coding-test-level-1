@@ -16,5 +16,9 @@ public class DemoController {
     ResponseEntity<Integer> getUnitTestResult() throws Exception{
         return null;
     }
+    
+	/*
+	 * @RequestMapping("/") public String home(){ return "Hi"; }
+	 */
 
 }
