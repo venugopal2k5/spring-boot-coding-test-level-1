@@ -26,6 +26,10 @@ public class PersonalInfo {
 	
 	@Column(name="IDOL_STATUS")
 	String idolStatus;
+	
+	public PersonalInfo() {
+		
+	}
 
 	public PersonalInfo(Integer id, String realName, String idolName,String address, String idolStatus) {
 		this.id=id;
